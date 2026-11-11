@@ -1,0 +1,10 @@
+{
+  "mode": "real",
+  "n_val": 9997,
+  "val_loss": 0.5029853582382202,
+  "val_accuracy": 0.8361508452535761,
+  "val_macro_precision": 0.8367176925884056,
+  "val_macro_recall": 0.8361341387816356,
+  "val_macro_f1": 0.8347263807543035,
+  "majority_class_baseline_accuracy": 0.3334000200060018
+}

@@ -1,0 +1,41 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "labels": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "learning_rate": 3e-05,
+  "epochs": 2,
+  "train_batch": 32,
+  "eval_batch": 64,
+  "max_length": 128,
+  "weight_decay": 0.01,
+  "warmup": 0.06,
+  "fp16": true,
+  "seed": 42,
+  "eval_steps": 1000,
+  "save_steps": 1000,
+  "metric_for_best_model": "macro_f1",
+  "n_train": 145448,
+  "n_val": 9997,
+  "gpu": "Tesla T4",
+  "segments": 1,
+  "segment_status": [
+    "finished"
+  ],
+  "training_minutes_recorded": 17.3,
+  "best_checkpoint": "/content/drive/MyDrive/fever_project/checkpoints/run1/checkpoint-7000",
+  "best_val_macro_f1_during_training": 0.8347263807543035,
+  "final_global_step": 9092,
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "note": "best_val_macro_f1, final_global_step and versions were transcribed from the Cell 17/18 output in the training session; the rest was read from files.",
+  "data_notes": "fill in: wiki coverage, dropped claims, NEI method, NEI audit result",
+  "training_seconds_recorded": 1038.1161,
+  "train_samples_per_second": 280.215,
+  "unfinished_segments": 0,
+  "duration_note": "Duration transcribed from the Cell 17 output; run1_segments.json on Drive still said running because its final write did not sync."
+}
