@@ -1,0 +1,12 @@
+data/
+checkpoints/
+models/
+pipeline_run_*/
+
+*.safetensors
+*.bin
+*.parquet
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
